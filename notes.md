@@ -8,6 +8,7 @@
 - `ls`: 列出所在目录的文件
 - `cd`: 进入根目录
 - `cd 目录名`: 进入目录名/
+- `mkdir 文件夹的名字`: 新建文件夹
 
 # vi基本命令
 - `i`: 进入编辑模式
@@ -25,3 +26,5 @@
 - `git add *`
 - `git commit -m "asdfasdf"`
 - `git push`
+- `git diff`: 查看提交了些什么
+- `git log`: 查看提交历史

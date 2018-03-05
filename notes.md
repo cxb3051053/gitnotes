@@ -1,4 +1,27 @@
-# git notes
-```
-git config --global user.name "zuoyuan"
-```
+# linux发行版
+- ubuntu
+- debian
+- redhat
+- gentoo
+
+# linux最最基本的命令
+- `ls`: 列出所在目录的文件
+- `cd`: 进入根目录
+- `cd 目录名`: 进入目录名/
+
+# vi基本命令
+- `i`: 进入编辑模式
+- `esc`: 退出编辑模式
+- `:`: shift+;进入控制模式
+- `:wq`: 保存退出
+- `:w`: 保存
+- `:q`：退出
+- `dd`: 删除一行
+
+# git基本命令
+- `git clone 项目地址`
+- `cd 项目地址`
+- `vim notes.md`
+- `git add *`
+- `git commit -m "asdfasdf"`
+- `git push`

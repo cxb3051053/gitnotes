@@ -35,3 +35,4 @@
 - `git status`: 查看本分支的文件情况
 - `git checkout -b develop`: 新建并切换到develop分支
 - `git checkout master`: 切换到master分支
+- `git merge develop`: 将develop分支合并到当前分支

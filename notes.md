@@ -30,3 +30,8 @@
 - `git log`: 查看提交历史
 - `git pull`: 拉下来最新的代码
 - `git rm filename`: 删除文件
+- `git show`: 查看改变
+- `git branch`: 查看本地的分支
+- `git status`: 查看本分支的文件情况
+- `git checkout -b develop`: 新建并切换到develop分支
+- `git checkout master`: 切换到master分支

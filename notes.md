@@ -29,3 +29,4 @@
 - `git diff`: 查看提交了些什么
 - `git log`: 查看提交历史
 - `git pull`: 拉下来最新的代码
+- `git rm filename`: 删除文件

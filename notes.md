@@ -38,3 +38,4 @@
 - `git merge develop`: 将develop分支合并到当前分支
 - `git reset --hard`: 版本回退
 - `git checkout 版本号`：切换到版本号对应的代码版本
+- `git log --graph --pretty=oneline --abbrev-commit`: 查看代码提交历史

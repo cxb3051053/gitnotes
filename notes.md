@@ -30,3 +30,5 @@
 - `git stash`: 缓存工作区内容
 - `git stash list`: 查看缓存中的工作区内容
 - `git stash pop`: 恢复工作区
+- `git rebase -i commitid`: 将commitid后面的所有commit合并成一个commit提交
+- `git push --force`: 强制提交

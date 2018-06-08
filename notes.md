@@ -1,25 +1,7 @@
-# linux发行版
-- ubuntu
-- debian
-- redhat
-- gentoo
-
-# linux最最基本的命令
-- `ls`: 列出所在目录的文件
-- `cd`: 进入根目录
-- `cd 目录名`: 进入目录名/
-- `mkdir 文件夹的名字`: 新建文件夹
-
-# vi基本命令
-- `i`: 进入编辑模式
-- `esc`: 退出编辑模式
-- `:`: shift+;进入控制模式
-- `:wq`: 保存退出
-- `:w`: 保存
-- `:q`：退出
-- `dd`: 删除一行
-
 # git基本命令
+- `ssh-keygen -t rsa -C "youremail@example.com"`: 用来生成秘钥
+- `git config --global user.email "你申请github用的邮箱"`
+- `git config --global user.name "你的github用户名"`
 - `git clone 项目地址`
 - `cd 项目地址`
 - `vim notes.md`
@@ -36,6 +18,8 @@
 - `git checkout -b develop`: 新建并切换到develop分支
 - `git checkout master`: 切换到master分支
 - `git merge develop`: 将develop分支合并到当前分支
-- `git reset --hard`: 版本回退
+- `git reset --hard HEAD^`: 版本回退
+- `git reset --hard commitid`: 回退到commitid这个版本，使用`git log查看`commitid
 - `git checkout 版本号`：切换到版本号对应的代码版本
-- `git log --graph --pretty=oneline --abbrev-commit`: 查看代码提交历史
+- `git checkout finename`: 在`git add *`之前，可以反悔撤销。
+- `git log --graph --pretty=oneline --abbrev-commit`: 查看漂亮的代码提交历史

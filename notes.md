@@ -6,7 +6,7 @@
 - `cd 项目地址`
 - `vim notes.md`
 - `git add *`
-- `git commit -m "asdfasdf"`
+- `git commit -m "本次提交注释信息"`
 - `git push`
 - `git diff`: 查看提交了些什么
 - `git log`: 查看提交历史

@@ -19,7 +19,7 @@
 - `git checkout master`: 切换到master分支
 - `git merge develop`: 将develop分支合并到当前分支
 - `git reset --hard HEAD^`: 版本回退
-- `git reset --hard commitid`: 回退到commitid这个版本，使用`git log查看`commitid
+- `git reset --hard commitid`: 回退到commitid这个版本，使用`git log`查看commitid
 - `git checkout 版本号`：切换到版本号对应的代码版本
 - `git checkout -- finename`: 在`git add *`之前，可以反悔撤销。
 - `git log --graph --pretty=oneline --abbrev-commit`: 查看漂亮的代码提交历史
@@ -32,4 +32,6 @@
 - `git stash list`: 查看缓存中的工作区内容
 - `git stash pop`: 恢复工作区
 - `git rebase -i commitid`: 将commitid后面的所有commit合并成一个commit提交
+- `git rebase master`: 将master分支的commit在当前分支重放一遍。
 - `git push --force`: 强制提交
+- `git cherry-pick commitid`: 将别的分支的commitid对应的提交剪切到当前分支。
